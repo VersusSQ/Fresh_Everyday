@@ -9,4 +9,5 @@ urlpatterns=[
     url('^register_exist/$', views.register_exist),
     url('^login/$', views.login),
     url('^login_handle/$', views.login_handle),
+    url('^logout/$', views.logout),
 ]
