@@ -37,6 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'user_info',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -80,7 +81,7 @@ DATABASES = {
         'NAME': 'fresh',
         'HOST': 'localhost',
         'PORT': '3306',
-        'USET': 'root',
+        'USER': 'root',
         'PASSWORD': 'mysql',
     }
 }
@@ -104,6 +105,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFLIES_DIRS = [
+STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
