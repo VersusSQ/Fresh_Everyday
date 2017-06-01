@@ -10,4 +10,6 @@ urlpatterns=[
     url('^login/$', views.login),
     url('^login_handle/$', views.login_handle),
     url('^logout/$', views.logout),
+    url('^ucenter_info/$', views.ucenter_info),
+    url('^ucenter_site/$', views.ucenter_site),
 ]
